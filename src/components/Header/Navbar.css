@@ -1,0 +1,87 @@
+.searchbar {
+    background-color: #2185c3;
+    color: #ffff !important;
+    border-radius: 18px;
+    width: 341px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+.MuiList-root{
+    display: flex !important;
+    background-color: #252121 !important;
+    padding: 1rem !important;
+}
+.MuiMenu-paper{
+    left:300px !important;
+}
+.nav-links {
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    color: white !important;
+    padding: 0 11px;
+    text-decoration: none;
+    display: flex !important;
+    align-items: center !important;
+}
+.nav-links-mobile-serv{
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    color: #ffff !important;
+    padding: 6px 11px;
+    text-decoration: none;
+    display: flex !important;
+    align-items: center !important;
+}
+.nav-links-mobile {
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    color: #ffff !important;
+    padding: 6px 11px;
+    text-decoration: none;
+    
+}
+.prop-btn-nav{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+    line-height: 1em !important;
+    color: #ffff !important;
+    background-color: #4579d4 !important;
+    border-radius: 5px !important;
+    padding: 14px 30px 14px 30px !important;
+    margin: 1rem;
+    cursor: pointer;
+    border: none !important;
+    
+
+}
+.link{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+@media (max-width:700px) {
+
+    .searchbar {
+        display: none;
+    }
+    .MuiList-root{
+        display: block !important;
+    }
+    .MuiMenu-paper{
+        left:0px !important;
+    }
+}

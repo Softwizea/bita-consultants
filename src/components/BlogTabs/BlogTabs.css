@@ -1,0 +1,50 @@
+.tabs {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    letter-spacing: 0.5px !important;
+    color: #F36823 !important;
+}
+
+.tab-grid {
+    /* position: absolute !important; */
+    width: 696px !important;
+    /* height: 623px !important; */
+    left: -140px !important;
+    top: -62px !important;
+    border: 1px solid rgba(49, 49, 49, 0.2) !important;
+    border-radius: 5px !important;
+    justify-content: space-around;
+}
+
+.tab-subGrid {
+    /* position: absolute !important; */
+    width: 296px !important;
+    /* height: 623px !important; */
+    left: -140px !important;
+    /* top: -62px !important; */
+    border: 1px solid rgba(49, 49, 49, 0.2) !important;
+    border-radius: 5px !important;
+    /* justify-content: space-around; */
+    padding: 1rem;
+    margin-left: 2.5rem;
+}
+
+.topic {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    letter-spacing: 0.5px !important;
+    color: #313131 !important;
+}
+
+@media(max-width:900px) {
+    .tab-subGrid {
+        margin-left: 0 !important;
+        margin-top: 0.7rem !important;
+    }
+}

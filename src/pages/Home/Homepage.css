@@ -1,0 +1,372 @@
+.landing-bg {
+    background-image: url("../../assets/bga.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    /* background-position: center center; */
+    /* position: relative; */
+}
+.landing-sub{
+    padding-top: 180px;
+     width: 40%
+}
+
+.landing-text {
+    /* position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-46%, -72%); */
+    font-family: 'Poppins' !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    /* line-height: 151px !important; */
+    letter-spacing: 0em !important;
+    text-align: center !important;
+    color: #ffff !important;
+
+}
+.landing-subtext {
+    /* position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-46%, 42%); */
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    /* line-height: 151px !important; */
+    letter-spacing: 0em !important;
+    text-align: center !important;
+    color: #ffff !important;
+
+}
+.landing-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.prop-btn{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+    line-height: 1em !important;
+    color: #ffff !important;
+    background-color: #fe7e41 !important;
+    border-radius: 5px !important;
+    padding: 14px 30px 14px 30px !important;
+    margin: 1rem;
+    cursor: pointer;
+    border: none !important;
+
+}
+.sol-btn{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+    line-height: 1em !important;
+    color: #ffff !important;
+    background-color: #9129fc !important;
+    border-radius: 5px !important;
+    padding: 14px 30px 14px 30px !important;
+    margin: 1rem;
+    cursor: pointer;
+    border: none !important;
+
+
+}
+.arrival-text {
+    margin-top: 4rem !important;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins' !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 69px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+}
+
+.border-style {
+    max-width: 800px;
+    width: 90%;
+}
+
+.reach-limits {
+    background-color: #fe7e41;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.reach-grid {
+    max-width: 460px;
+    /* padding-left: 190px; */
+    justify-content: center !important;
+    align-items: center;
+}
+
+.reach-grid-typo {
+    max-width: 460px;
+    padding-top: 200px;
+    /* padding-left: 190px; */
+    align-items: center;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    /* line-height: 57px !important; */
+    /* or 136% */
+
+    text-align: center !important;
+    color: #ffff;
+}
+
+.reach-typo {
+    max-width: 482px;
+    /* height: 60px; */
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    color: #ffff;
+}
+
+.learn-button-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem !important;
+    /* height: 64px; */
+
+}
+
+.learn-button {
+    max-width: 216px !important;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    /* line-height: 29px !important; */
+    text-align: center !important;
+    border-radius: 8px !important;
+    background-color: white !important;
+    color: #000000 !important;
+    text-transform: capitalize !important;
+}
+
+.load-button-grid {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.load-button {
+    border-radius: 8px !important;
+    background-color: #000000 !important;
+    color: #83bde3 !important;
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    text-align: center !important;
+    text-transform: capitalize !important;
+    padding: 6px 22px !important;
+
+}
+
+.support-card {
+    background-color: #000000;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    width: 350px !important;
+    max-width: 350px !important;
+    display: grid;
+    justify-content: center;
+
+}
+.counter-card{
+    background-color: #faead6;
+    /* height: 429px; */
+    max-width: 1053px;
+    width: auto;
+    top: -30%;
+    border-radius: 8px;
+    z-index: 11111;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -74px;
+    z-index: 177;
+    position: relative;
+    justify-content: space-between;
+}
+.counter-img{
+    max-width: 550px;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.counter-text{
+    text-align: center !important;
+    margin: auto !important;
+}
+
+.love-card{
+    background-color: #faead6;
+    /* height: 429px; */
+    max-width: 1053px;
+    width: auto;
+    top: -30%;
+    border-radius: 8px;
+    z-index: 11111;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    z-index: 177;
+    position: relative;
+    justify-content: space-between;
+}
+.love-img{
+    max-width: 650px;
+    width: 100%;
+    height: 200px;
+    /* object-fit: contain; */
+}
+.love-text{
+    text-align: center !important;
+    margin: auto !important;
+}
+.level-up{
+    background-color: #fec541;
+}
+.level-text{
+    text-align: justify !important;
+    margin: auto !important;
+
+}
+.level-img{
+    /* max-width: 950px; */
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+}
+.home-services{
+    background: #c9f0f5;
+     padding: 5rem;
+}
+.jungle-text{
+    padding: 6rem;
+    background-color: #f8e3fe;
+    justify-content: space-between;
+}
+.seller-text{
+    font-size: 2.5rem !important;
+}
+@media(max-width:1050px) {
+    .support-card {
+        margin-top: 1.5rem !important;
+    }
+}
+@media(max-width:405px) {
+    .landing-sub{
+        padding-top: 41px !important;
+        width: 51% !important;
+    }
+}
+
+@media(max-width:700px) {
+    .seller-text{
+        font-size: 1.5rem !important;
+    }
+    .jungle-text{
+        padding: 2rem !important;
+        background-color: #f8e3fe;
+        justify-content: center !important;
+    }
+    .home-services{
+        background: #c9f0f5;
+         padding: 2rem !important;
+    }
+    .counter-card{
+margin-top: 0rem;
+    }
+    .landing-bg {
+        height: 350px
+    }
+    .landing-sub{
+        padding-top: 61px;
+        width: 51%;
+    }
+
+    .landing-text {
+        font-size: 20px !important;
+        top: 44% !important;
+    }
+    .landing-subtext {
+    font-size: 12px !important;
+    }
+    .landing-btns{
+        display: grid;
+        justify-content: center;
+    }
+    .prop-btn{
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        text-transform: capitalize !important;
+        line-height: 1em !important;
+        color: #ffff !important;
+        background-color: #fe7e41 !important;
+        border-radius: 5px !important;
+        padding: 12px 30px 12px 30px !important;
+        margin: 0.3rem;
+        cursor: pointer;
+        border: none !important;
+    
+    }
+    .sol-btn{
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        text-transform: capitalize !important;
+        line-height: 1em !important;
+        color: #ffff !important;
+        background-color: #9129fc !important;
+        border-radius: 5px !important;
+        padding: 12px 30px 12px 30px !important;
+        margin: 0.3rem;
+        cursor: pointer;
+        border: none !important;
+    
+    
+    }
+
+    .reach-limits {
+        height: 350px;
+    }
+
+    .reach-grid-typo {
+        font-size: 14px !important;
+        padding-top: 102px !important;
+        max-width: 250px !important;
+    }
+
+    .reach-typo {
+        font-size: 8px !important;
+        max-width: 250px !important;
+
+    }
+
+    .learn-button {
+        font-size: 10px !important;
+    }
+}

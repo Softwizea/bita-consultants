@@ -1,0 +1,5 @@
+.short {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin: 1.5rem;
+}

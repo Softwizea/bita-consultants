@@ -1,0 +1,95 @@
+.aboutus-bg-c {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/cover.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 355px;
+    opacity: 1.2;
+    /* background-position: center center; */
+    /* position: relative; */
+}
+
+.cover-margin {
+    margin-top: 11rem !important;
+}
+
+.date-text-c {
+    font-family: 'Poppins' !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 29px !important;
+    letter-spacing: 0.045em !important;
+    text-align: center !important;
+    color: white;
+}
+
+.aboutus-text-c {
+    font-family: 'Poppins' !important;
+    font-size: 30px !important;
+    font-weight: 500 !important;
+    line-height: 48px !important;
+    letter-spacing: 0em !important;
+    text-align: center !important;
+    color: white;
+}
+
+.category {
+    background-image: url("../../assets/car-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 575px;
+    opacity: 1.2;
+
+}
+
+.link {
+    text-decoration: none !important;
+    color: black;
+}
+
+.product-title {
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 28px !important;
+    letter-spacing: 0em !important;
+    text-decoration: none !important;
+
+}
+
+.product-subtitle {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    /* line-height: 24px !important; */
+    color: #000000 !important;
+    margin-top: 0.7rem !important;
+}
+
+.product-off {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    /* line-height: 38px !important; */
+    margin-left: 0.4rem !important;
+    color: #FF3232 !important;
+}
+
+@media(max-width:700px) {
+    .aboutus-bg-c {
+        height: 175px
+    }
+
+    .category {
+        height: 300px;
+    }
+
+    .cover-margin {
+        margin-top: 2rem !important;
+    }
+
+    .aboutus-text-c {
+        font-size: 19px !important;
+    }
+}

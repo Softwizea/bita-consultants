@@ -1,0 +1,51 @@
+.blog-title {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 27px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.micro-text {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+    line-height: 18px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #4B4B4B !important;
+}
+
+.blog-sub-title {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 21px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #6E6E6E !important;
+}
+
+.micro-text-btn {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #313131 !important;
+    text-transform: capitalize !important;
+}
+
+.card-content {
+    padding: 16px 7px !important;
+}
+
+.card {
+    box-shadow: none !important;
+}
